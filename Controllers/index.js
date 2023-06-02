@@ -12,7 +12,7 @@ async function Validar(){
     
     .then((validation) => {
         alert("The user: "+user+" is successfull")
-        window.location.href= "../Templates/registro_unico.html"
+        window.location.href= "../Templates/registro_unico.html";
     })
     .catch((error) => {
         const errorCode = error.code;
@@ -22,7 +22,7 @@ async function Validar(){
 }
 
 async function google(){
-    window.location.href= "../Templates/base.html"
+    window.location.href= "../Templates/base.html";
 }
 
 window.addEventListener('DOMContentLoaded', async()=>
