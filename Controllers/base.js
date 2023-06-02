@@ -27,10 +27,7 @@ async function buscar(){
         </div>
         `
         mostrar.innerHTML=html
-      }if (docSnap.noexists()) {
-
-        alert('no se encuentra registro con el codigo: '+codigo.value)
-       
+      
     } else {
 
         alert('no se encuentra registro con el codigo: '+codigo.value)
